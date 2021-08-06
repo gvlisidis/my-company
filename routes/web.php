@@ -21,4 +21,6 @@ Route::get('/ideas', function () {
     return view('ideas.index');
 });
 
+Route::view('/ideas/idea', 'ideas.show');
+
 require __DIR__.'/auth.php';
