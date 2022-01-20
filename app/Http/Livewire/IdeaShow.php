@@ -2,6 +2,8 @@
 
 namespace App\Http\Livewire;
 
+use App\Exceptions\DuplicateVoteException;
+use App\Exceptions\VoteNotFoundException;
 use App\Models\Idea;
 use Livewire\Component;
 
